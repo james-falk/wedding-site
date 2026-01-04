@@ -7,7 +7,7 @@ import { motion } from "framer-motion";
 export default function Registry() {
   const { registry } = weddingData;
 
-  const iconMap: { [key: string]: JSX.Element } = {
+  const iconMap: { [key: string]: React.ReactElement } = {
     gift: (
       <svg
         className="w-8 h-8"
