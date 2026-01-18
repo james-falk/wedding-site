@@ -33,9 +33,9 @@ export const theme = {
 
   // ===== FONTS =====
   fonts: {
-    heading: "'Playfair Display', serif", // Elegant serif for headings
-    body: "'Montserrat', sans-serif", // Clean sans-serif for body text
-    script: "'Great Vibes', cursive", // Script font for special touches
+    heading: "'Playfair Display', serif", // Elegant serif for all text
+    body: "'Playfair Display', serif", // Elegant serif for body text
+    script: "'Allura', cursive", // Script font for special touches
   },
 
   // ===== ANIMATION SETTINGS =====

@@ -5,6 +5,7 @@ import { motion, AnimatePresence } from "framer-motion";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import weddingData from "@/config/wedding-data";
+import Image from "next/image";
 
 const navItems = [
   { label: "Home", href: "/" },
@@ -44,7 +45,7 @@ export default function Navigation() {
         animate={{ y: 0 }}
         className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           showSolidNav
-            ? "bg-white/95 backdrop-blur-md shadow-lg"
+            ? "bg-cream-50/95 backdrop-blur-md shadow-lg"
             : "bg-transparent"
         }`}
       >
@@ -53,11 +54,19 @@ export default function Navigation() {
             {/* Logo / Names */}
             <Link
               href="/"
-              className={`font-script text-2xl md:text-3xl transition-colors ${
-                showSolidNav ? "text-sky-800" : "text-white"
+              className={`font-script text-2xl md:text-3xl transition-colors flex items-center gap-3 ${
+                showSolidNav ? "text-sage-700" : "text-white"
               }`}
             >
               {weddingData.couple.coupleNames}
+              <div className="relative w-48 h-48 md:w-56 md:h-56">
+                <Image
+                  src="/images/ring.png"
+                  alt="Wedding Rings"
+                  fill
+                  className="object-contain"
+                />
+              </div>
             </Link>
 
             {/* Desktop Navigation */}
@@ -66,9 +75,9 @@ export default function Navigation() {
                 <Link
                   key={item.label}
                   href={item.href}
-                  className={`font-medium transition-colors hover:text-sky-500 ${
+                  className={`font-medium transition-colors hover:text-sage-500 ${
                     pathname === item.href
-                      ? "text-sky-500"
+                      ? "text-sage-600"
                       : showSolidNav
                       ? "text-gray-700"
                       : "text-white"
@@ -130,12 +139,12 @@ export default function Navigation() {
               animate={{ x: 0 }}
               exit={{ x: "100%" }}
               transition={{ type: "spring", damping: 25 }}
-              className="absolute right-0 top-0 bottom-0 w-64 bg-white shadow-2xl"
+              className="absolute right-0 top-0 bottom-0 w-64 bg-cream-50 shadow-2xl"
             >
               <div className="p-6">
                 <button
                   onClick={() => setIsOpen(false)}
-                  className="absolute top-4 right-4 p-2 text-gray-600 hover:text-sky-500"
+                  className="absolute top-4 right-4 p-2 text-gray-600 hover:text-sage-500"
                 >
                   <svg
                     className="w-6 h-6"
@@ -163,8 +172,8 @@ export default function Navigation() {
                         onClick={() => setIsOpen(false)}
                         className={`block w-full text-left py-3 px-4 rounded-lg transition-colors font-medium ${
                           pathname === item.href
-                            ? "bg-sky-50 text-sky-600"
-                            : "text-gray-700 hover:bg-sky-50 hover:text-sky-600"
+                            ? "bg-sage-100 text-sage-700"
+                            : "text-gray-700 hover:bg-sage-100 hover:text-sage-700"
                         }`}
                       >
                         {item.label}

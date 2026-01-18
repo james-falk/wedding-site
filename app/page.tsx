@@ -175,15 +175,15 @@ export default function Home() {
         <div 
           className="fixed inset-0 top-0 w-full h-full bg-center -z-10"
           style={{ 
-            backgroundImage: "url('/images/Beach.png')",
+            backgroundImage: "url('/images/field.jpg')",
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat'
           }}
         />
 
         {/* Countdown Section */}
-        <section className="relative py-10 sm:py-12 border-t-2 border-white/30">
-          <div className="absolute inset-0 bg-black/40" />
+        <section className="relative py-10 sm:py-12 border-t-2 border-sage-200/50">
+          <div className="absolute inset-0 bg-black/30" />
           <div className="relative z-10 max-w-4xl mx-auto px-4">
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -192,7 +192,7 @@ export default function Home() {
               viewport={{ once: true }}
               className="text-center"
             >
-              <p className="text-sky-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-4">
+              <p className="text-sage-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-4">
                 Counting down to our special day
               </p>
               <Countdown targetDate={weddingData.weddingDate.date} />
@@ -201,11 +201,11 @@ export default function Home() {
         </section>
 
         {/* Horizontal Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+        <div className="h-px bg-gradient-to-r from-transparent via-sage-300/40 to-transparent" />
 
         {/* Event Details Section */}
         <section className="relative py-12 sm:py-16">
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/40" />
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -213,18 +213,18 @@ export default function Home() {
             viewport={{ once: true }}
             className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto"
           >
-            <p className="text-sky-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
+            <p className="text-sage-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
               The Celebration
             </p>
             <h2 className="font-script text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-4 sm:mb-6 drop-shadow-2xl">
               Event Details
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4">
-              Join us for an enchanting day filled with love, laughter, and memories. From the garden ceremony to dancing under the stars.
+              Join us for an enchanting day filled with love, laughter, and memories.
             </p>
             <Link
               href="/details"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-white/50 text-white rounded-full hover:bg-white hover:text-sky-700 transition-all duration-300 font-medium text-base sm:text-lg group"
+              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-sage-200/70 text-white rounded-full hover:bg-sage-100 hover:text-sage-800 transition-all duration-300 font-medium text-base sm:text-lg group"
             >
               <span className="flex items-center gap-2">
                 Learn More
@@ -237,11 +237,11 @@ export default function Home() {
         </section>
 
         {/* Horizontal Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+        <div className="h-px bg-gradient-to-r from-transparent via-sage-300/40 to-transparent" />
 
         {/* Wedding Party Section */}
         <section className="relative py-12 sm:py-16">
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/40" />
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -249,7 +249,7 @@ export default function Home() {
             viewport={{ once: true }}
             className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto"
           >
-            <p className="text-sky-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
+            <p className="text-sage-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
               Our Circle
             </p>
             <h2 className="font-script text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-4 sm:mb-6 drop-shadow-2xl">
@@ -260,7 +260,7 @@ export default function Home() {
             </p>
             <Link
               href="/party"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-white/50 text-white rounded-full hover:bg-white hover:text-sky-700 transition-all duration-300 font-medium text-base sm:text-lg group"
+              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-sage-200/70 text-white rounded-full hover:bg-sage-100 hover:text-sage-800 transition-all duration-300 font-medium text-base sm:text-lg group"
             >
               <span className="flex items-center gap-2">
                 Learn More
@@ -273,11 +273,11 @@ export default function Home() {
         </section>
 
         {/* Horizontal Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+        <div className="h-px bg-gradient-to-r from-transparent via-sage-300/40 to-transparent" />
 
         {/* Travel & Stay Section */}
         <section className="relative py-12 sm:py-16">
-          <div className="absolute inset-0 bg-black/50" />
+          <div className="absolute inset-0 bg-black/40" />
           <motion.div
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -285,18 +285,18 @@ export default function Home() {
             viewport={{ once: true }}
             className="relative z-10 text-center px-4 sm:px-6 max-w-4xl mx-auto"
           >
-            <p className="text-sky-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
+            <p className="text-sage-200 text-xs sm:text-sm md:text-base tracking-[0.2em] sm:tracking-[0.3em] uppercase mb-3 sm:mb-4">
               Plan Your Visit
             </p>
             <h2 className="font-script text-4xl sm:text-5xl md:text-7xl lg:text-8xl text-white mb-4 sm:mb-6 drop-shadow-2xl">
               Travel & Stay
             </h2>
             <p className="text-base sm:text-lg md:text-xl text-white/90 mb-6 sm:mb-8 max-w-2xl mx-auto leading-relaxed px-4">
-              We've arranged special hotel blocks, shuttle services, and all the information you need to make your trip seamless and enjoyable.
+              Check out local hotels and accommodations in the area.
             </p>
             <Link
               href="/travel"
-              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-white/50 text-white rounded-full hover:bg-white hover:text-sky-700 transition-all duration-300 font-medium text-base sm:text-lg group"
+              className="inline-block px-6 sm:px-8 py-3 sm:py-4 bg-white/10 backdrop-blur-md border-2 border-sage-200/70 text-white rounded-full hover:bg-sage-100 hover:text-sage-800 transition-all duration-300 font-medium text-base sm:text-lg group"
             >
               <span className="flex items-center gap-2">
                 Learn More
@@ -309,11 +309,11 @@ export default function Home() {
         </section>
 
         {/* Horizontal Divider */}
-        <div className="h-px bg-gradient-to-r from-transparent via-white/50 to-transparent" />
+        <div className="h-px bg-gradient-to-r from-transparent via-sage-300/40 to-transparent" />
 
         {/* Final CTA Section */}
         <section className="relative py-14 sm:py-20">
-          <div className="absolute inset-0 bg-black/60" />
+          <div className="absolute inset-0 bg-black/50" />
           <motion.div
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
@@ -326,7 +326,7 @@ export default function Home() {
             </h2>
             <Link
               href="/rsvp"
-              className="inline-block px-8 sm:px-12 py-4 sm:py-5 bg-white text-sky-700 rounded-full hover:bg-sky-50 transition-all duration-300 font-bold text-lg sm:text-xl shadow-2xl hover:shadow-sky-300/50 hover:scale-105"
+              className="inline-block px-8 sm:px-12 py-4 sm:py-5 bg-sage-500 text-white rounded-full hover:bg-sage-600 transition-all duration-300 font-bold text-lg sm:text-xl shadow-2xl hover:shadow-sage-400/50 hover:scale-105"
             >
               RSVP Today
             </Link>
@@ -335,9 +335,9 @@ export default function Home() {
       </div>
 
       {/* Footer */}
-      <footer className="relative bg-gradient-to-b from-white to-sky-100 py-12 px-4">
+      <footer className="relative bg-gradient-to-b from-cream-100 to-cream-200 py-12 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="font-script text-3xl sm:text-4xl text-sky-800 mb-4">
+          <p className="font-script text-3xl sm:text-4xl text-sage-700 mb-4">
             {weddingData.couple.coupleNames}
           </p>
           <p className="text-gray-600 mb-3 text-sm sm:text-base">
@@ -346,7 +346,7 @@ export default function Home() {
         </div>
         {/* Copyright in bottom left */}
         <div className="absolute bottom-2 sm:bottom-4 left-2 sm:left-4">
-          <p className="text-gray-400 text-xs">
+          <p className="text-sand-300 text-xs">
             © 2026 James Falk. All rights reserved.
           </p>
         </div>

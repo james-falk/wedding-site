@@ -87,15 +87,15 @@ export const weddingData = {
 
   // ===== TIMELINE =====
   timeline: [
-    { time: "4:00 PM", event: "Ceremony Begins" },
-    { time: "4:45 PM", event: "Cocktail Hour" },
-    { time: "6:00 PM", event: "Grand Entrance" },
-    { time: "6:15 PM", event: "First Dance" },
-    { time: "6:30 PM", event: "Dinner Service" },
-    { time: "7:30 PM", event: "Toasts & Speeches" },
-    { time: "8:00 PM", event: "Cake Cutting" },
-    { time: "8:15 PM", event: "Open Dancing" },
-    { time: "10:30 PM", event: "Last Dance & Send-off" },
+    { time: "3:00 PM", event: "Guests Arrive", description: "Welcome drinks served" },
+    { time: "3:30 PM", event: "The Entrance", description: "The bride make their entrance" },
+    { time: "4:45 PM", event: "Cocktail Hour", description: "Drinks with loved ones while the wedding party takes some pictures" },
+    { time: "5:00 PM", event: "Speeches", description: "A fun tradition with family" },
+    { time: "5:30 PM", event: "Dinner is Served", description: "Buffet and main courses open" },
+    { time: "6:30 PM", event: "First Dance & Family Dances", description: "The couple's first dance" },
+    { time: "8:00 PM", event: "Cake Cutting", description: "Ceremonial cake cutting" },
+    { time: "9:00 PM", event: "Bouquet Toss", description: "Fun tradition for the singles" },
+    { time: "10:00 PM", event: "After Party!", description: "Less formal, just dancing & having fun!" },
   ],
 
   // ===== REGISTRY =====
@@ -166,44 +166,98 @@ export const weddingData = {
 
   // ===== WEDDING PARTY =====
   weddingParty: {
+    officiator: {
+      name: "Ryan",
+      role: "Wedding Officiator",
+      relation: "Make a Wish Kid",
+      photo: "/images/ryan.jpg",
+    },
     bridesmaids: [
       {
-        name: "Emily Thompson",
+        name: "Sara Cable",
         role: "Maid of Honor",
-        relation: "Sister of the Bride",
-        photo: "/images/wedding-party/emily.jpg",
+        relation: "",
+        photo: "/images/sara.jpg",
       },
       {
-        name: "Jessica Martinez",
-        role: "Bridesmaid",
-        relation: "Best Friend since College",
-        photo: "/images/wedding-party/jessica.jpg",
+        name: "Skyler Clendening",
+        role: "Maid of Honor",
+        relation: "",
+        photo: "/images/skyler.jpg",
       },
       {
-        name: "Amanda Wilson",
+        name: "Ashlyn Ziebol",
         role: "Bridesmaid",
-        relation: "Childhood Friend",
-        photo: "/images/wedding-party/amanda.jpg",
+        relation: "",
+        photo: "/images/ashlyn.jpg",
+      },
+      {
+        name: "Calee Nesler",
+        role: "Bridesmaid",
+        relation: "",
+        photo: "/images/cali.jpg",
+      },
+      {
+        name: "Sage Kovacs",
+        role: "Bridesmaid",
+        relation: "",
+        photo: "/images/sage.jpg",
+      },
+      {
+        name: "Tiffany Turk",
+        role: "Bridesmaid",
+        relation: "",
+        photo: "/images/tiffany.jpg",
+      },
+      {
+        name: "Kenzie McMillan",
+        role: "Bridesmaid",
+        relation: "",
+        photo: "/images/Kenzie.jpg",
       },
     ],
     groomsmen: [
       {
-        name: "David Davis",
+        name: "Thomas Anderson",
         role: "Best Man",
-        relation: "Brother of the Groom",
-        photo: "/images/wedding-party/david.jpg",
+        relation: "",
+        photo: "/images/thomas.jpg",
       },
       {
-        name: "James Cooper",
+        name: "Mitchell Falk",
         role: "Groomsman",
-        relation: "College Roommate",
-        photo: "/images/wedding-party/james.jpg",
+        relation: "",
+        photo: "",
       },
       {
-        name: "Robert Lee",
+        name: "Bryce Falk",
         role: "Groomsman",
-        relation: "Lifelong Friend",
-        photo: "/images/wedding-party/robert.jpg",
+        relation: "",
+        photo: "",
+      },
+      {
+        name: "Lucas Falk",
+        role: "Groomsman",
+        relation: "",
+        photo: "/images/Lucas.jpg",
+      },
+      {
+        name: "Austin Harless",
+        role: "Groomsman",
+        relation: "",
+        photo: "/images/Austin.jpg",
+      },
+      {
+        name: "Spencer Kovacs",
+        role: "Groomsman",
+        relation: "",
+        photo: "",
+      },
+      {
+        name: "Maxwell Frederick",
+        role: "Groomsman",
+        relation: "",
+        photo: "/images/maxwell.jpg",
       },
     ],
   },
@@ -212,7 +266,7 @@ export const weddingData = {
   faq: [
     {
       question: "Can I bring a plus-one?",
-      answer: "If you received a plus-one, their name will be included on your invitation. If you're unsure, please contact us!",
+      answer: "If you did not receive a plus-one on your invitation, please do not bring a guest. If a plus-one was included for you, their name will be on your invitation.",
     },
     {
       question: "Are children welcome?",
@@ -220,11 +274,11 @@ export const weddingData = {
     },
     {
       question: "Is there parking available?",
-      answer: "Yes! Free parking and valet service are available at the venue.",
+      answer: "Yes! Free parking is available at the venue.",
     },
     {
       question: "Will the ceremony be indoors or outdoors?",
-      answer: "The ceremony will be outdoors in the garden. The reception will be in a tented area with heating/cooling. We'll have a backup indoor plan in case of inclement weather.",
+      answer: "The ceremony will be outdoors, so please plan accordingly.",
     },
     {
       question: "What's the weather typically like in June?",
@@ -240,7 +294,7 @@ export const weddingData = {
     },
     {
       question: "What time should I arrive?",
-      answer: "Please arrive by 3:45 PM to allow time for parking and seating before the 4:00 PM ceremony start.",
+      answer: "Please arrive by 3:00 PM to allow time for parking and seating before the ceremony begins.",
     },
   ],
 

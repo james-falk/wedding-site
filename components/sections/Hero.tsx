@@ -20,11 +20,11 @@ export default function Hero() {
         <div 
           className="absolute inset-0 bg-cover bg-center"
           style={{
-            backgroundImage: "url('https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&q=80')",
+            backgroundImage: "url('/images/hero.jpg?v=1')",
           }}
         />
         {/* Overlay for text readability */}
-        <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-black/20 to-black/40" />
       </motion.div>
 
       {/* Content */}
