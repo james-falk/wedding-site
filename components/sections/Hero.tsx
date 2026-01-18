@@ -8,7 +8,7 @@ export default function Hero() {
   const { couple, weddingDate } = weddingData;
 
   return (
-    <section className="relative h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black">
       {/* Animated Background with Image */}
       <motion.div
         initial={{ scale: 1.2, opacity: 0 }}

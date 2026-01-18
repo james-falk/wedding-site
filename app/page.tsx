@@ -173,11 +173,12 @@ export default function Home() {
       <div className="relative">
         {/* Fixed Beach Background */}
         <div 
-          className="fixed inset-0 top-0 w-full h-full bg-center -z-10"
+          className="fixed inset-0 top-0 w-full h-full -z-10"
           style={{ 
             backgroundImage: "url('/images/field.jpg')",
             backgroundSize: 'cover',
-            backgroundRepeat: 'no-repeat'
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center right' // Mobile: more to the right
           }}
         />
 

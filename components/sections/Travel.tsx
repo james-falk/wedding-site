@@ -143,8 +143,8 @@ export default function Travel() {
           <h2 className="font-script text-5xl md:text-7xl text-center text-sage-700 mb-4">
             Travel & Stay
           </h2>
-          <p className="text-center text-gray-600 mb-16 text-lg font-light">
-            Check out local hotels and accommodations in the area
+          <p className="text-center text-gray-700 mb-6 text-base md:text-lg font-light max-w-3xl mx-auto">
+            We sincerely apologize, but the hotels in the area did not offer hotel blocks. You can still book at the following places near the venue.
           </p>
         </FadeIn>
 

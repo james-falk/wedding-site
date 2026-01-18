@@ -180,57 +180,6 @@ export default function WeddingParty() {
           </p>
         </FadeIn>
 
-        {/* Officiator */}
-        {weddingParty.officiator && (
-          <div className="mb-12">
-            <FadeIn delay={0.1}>
-              <h3 className="text-3xl font-medium text-center text-sage-800 mb-8">
-                Officiator
-              </h3>
-            </FadeIn>
-            
-            <div className="max-w-xs mx-auto">
-              <FadeIn delay={0.2}>
-                <motion.div
-                  whileHover={{ y: -10 }}
-                  className="paper-card bg-white/80 backdrop-blur-sm shadow-md overflow-hidden border border-sage-100/50"
-                >
-                {/* Photo */}
-                <div className="relative h-80 overflow-hidden">
-                  {weddingParty.officiator.photo ? (
-                    <Image 
-                      src={weddingParty.officiator.photo}
-                      alt={weddingParty.officiator.name}
-                      fill
-                      className="object-cover hover:scale-110 transition-transform duration-500"
-                      style={{ objectPosition: "center 15%" }}
-                    />
-                  ) : (
-                    <div className="absolute inset-0 bg-gradient-to-br from-sage-100 to-sage-200 flex items-center justify-center">
-                      <span className="text-gray-400 text-lg font-light">Photo Coming Soon</span>
-                    </div>
-                  )}
-                </div>
-                
-                <div className="p-6 text-center">
-                  <h4 className="text-2xl font-medium text-gray-800 mb-2">
-                    {weddingParty.officiator.name}
-                  </h4>
-                  <p className="text-sage-600 font-normal mb-2">
-                    {weddingParty.officiator.role}
-                  </p>
-                  {weddingParty.officiator.relation && (
-                    <p className="text-gray-600 text-sm font-light">
-                      {weddingParty.officiator.relation}
-                    </p>
-                  )}
-                </div>
-              </motion.div>
-            </FadeIn>
-            </div>
-          </div>
-        )}
-
         {/* Bridesmaids */}
         <div className="mb-12">
           <FadeIn delay={0.3}>
@@ -283,7 +232,7 @@ export default function WeddingParty() {
         </div>
 
         {/* Groomsmen */}
-        <div>
+        <div className="mb-12">
           <FadeIn delay={0.6}>
             <h3 className="text-3xl font-medium text-center text-sage-800 mb-8">
               Groomsmen
@@ -332,6 +281,57 @@ export default function WeddingParty() {
             ))}
           </div>
         </div>
+
+        {/* Officiator */}
+        {weddingParty.officiator && (
+          <div>
+            <FadeIn delay={0.9}>
+              <h3 className="text-3xl font-medium text-center text-sage-800 mb-8">
+                Officiator
+              </h3>
+            </FadeIn>
+            
+            <div className="max-w-xs mx-auto">
+              <FadeIn delay={1.0}>
+                <motion.div
+                  whileHover={{ y: -10 }}
+                  className="paper-card bg-white/80 backdrop-blur-sm shadow-md overflow-hidden border border-sage-100/50"
+                >
+                {/* Photo */}
+                <div className="relative h-80 overflow-hidden">
+                  {weddingParty.officiator.photo ? (
+                    <Image 
+                      src={weddingParty.officiator.photo}
+                      alt={weddingParty.officiator.name}
+                      fill
+                      className="object-cover hover:scale-110 transition-transform duration-500"
+                      style={{ objectPosition: "center 15%" }}
+                    />
+                  ) : (
+                    <div className="absolute inset-0 bg-gradient-to-br from-sage-100 to-sage-200 flex items-center justify-center">
+                      <span className="text-gray-400 text-lg font-light">Photo Coming Soon</span>
+                    </div>
+                  )}
+                </div>
+                
+                <div className="p-6 text-center">
+                  <h4 className="text-2xl font-medium text-gray-800 mb-2">
+                    {weddingParty.officiator.name}
+                  </h4>
+                  <p className="text-sage-600 font-normal mb-2">
+                    {weddingParty.officiator.role}
+                  </p>
+                  {weddingParty.officiator.relation && (
+                    <p className="text-gray-600 text-sm font-light">
+                      {weddingParty.officiator.relation}
+                    </p>
+                  )}
+                </div>
+              </motion.div>
+            </FadeIn>
+            </div>
+          </div>
+        )}
       </div>
     </section>
   );
