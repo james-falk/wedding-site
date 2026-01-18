@@ -18,9 +18,10 @@ export default function Hero() {
       >
         {/* Hero Image */}
         <div 
-          className="absolute inset-0 bg-cover bg-center"
+          className="absolute inset-0 bg-cover"
           style={{
             backgroundImage: "url('/images/hero.jpg?v=1')",
+            backgroundPosition: '55% center',
           }}
         />
         {/* Overlay for text readability */}
