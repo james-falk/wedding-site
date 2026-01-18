@@ -178,7 +178,7 @@ export default function Home() {
             backgroundImage: "url('/images/field.jpg')",
             backgroundSize: 'cover',
             backgroundRepeat: 'no-repeat',
-            backgroundPosition: 'center right' // Mobile: more to the right
+            backgroundPosition: '60% center' // Halfway between center and right
           }}
         />
 

@@ -196,7 +196,7 @@ export default function WeddingParty() {
                   className="paper-card bg-white/80 backdrop-blur-sm shadow-md overflow-hidden border border-sage-100/50"
                 >
                   {/* Photo */}
-                  <div className="relative h-80 overflow-hidden">
+                  <div className="relative h-96 md:h-80 overflow-hidden">
                     {person.photo ? (
                       <Image 
                         src={person.photo}
@@ -247,7 +247,7 @@ export default function WeddingParty() {
                   className="paper-card bg-white/80 backdrop-blur-sm shadow-md overflow-hidden border border-sage-100/50"
                 >
                   {/* Photo */}
-                  <div className="relative h-80 overflow-hidden">
+                  <div className="relative h-96 md:h-80 overflow-hidden">
                     {person.photo ? (
                       <Image 
                         src={person.photo}
