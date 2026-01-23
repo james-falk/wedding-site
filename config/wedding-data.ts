@@ -227,7 +227,7 @@ export const weddingData = {
         name: "Mitchell Falk",
         role: "Groomsman",
         relation: "",
-        photo: "",
+        photo: "/images/Mitchell.jpg",
       },
       {
         name: "Bryce Falk",

@@ -302,7 +302,7 @@ export default function WeddingParty() {
                         alt={person.name}
                         fill
                         className="object-cover hover:scale-110 transition-transform duration-500"
-                        style={person.name === "Lucas Falk" ? { objectPosition: "center 40%" } : person.name === "Spencer Kovacs" ? { objectPosition: "center 0%" } : {}}
+                        style={person.name === "Lucas Falk" ? { objectPosition: "center 40%" } : person.name === "Spencer Kovacs" ? { objectPosition: "center 0%" } : person.name === "Mitchell Falk" ? { objectPosition: "center 20%" } : {}}
                       />
                     ) : (
                       <div className="absolute inset-0 bg-gradient-to-br from-sage-100 to-sage-200 flex items-center justify-center">
