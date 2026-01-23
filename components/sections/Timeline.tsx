@@ -22,7 +22,7 @@ export default function Timeline() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-85"
           />
         </motion.div>
 
@@ -37,7 +37,7 @@ export default function Timeline() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-85"
             style={{ transform: 'rotate(-15deg)' }}
           />
         </motion.div>
@@ -53,7 +53,7 @@ export default function Timeline() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-45"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(25deg)' }}
           />
         </motion.div>
@@ -69,7 +69,7 @@ export default function Timeline() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-45"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-20deg)' }}
           />
         </motion.div>
@@ -85,7 +85,7 @@ export default function Timeline() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-50"
             style={{ transform: 'rotate(-35deg) scaleX(-1)' }}
           />
         </motion.div>
@@ -101,7 +101,7 @@ export default function Timeline() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-38"
+            className="object-contain opacity-55"
             style={{ transform: 'rotate(45deg)' }}
           />
         </motion.div>
@@ -117,7 +117,7 @@ export default function Timeline() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-32"
+            className="object-contain opacity-50"
           />
         </motion.div>
 
@@ -132,7 +132,7 @@ export default function Timeline() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-40"
+            className="object-contain opacity-58"
             style={{ transform: 'rotate(180deg)' }}
           />
         </motion.div>

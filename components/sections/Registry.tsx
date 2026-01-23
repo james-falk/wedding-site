@@ -19,7 +19,7 @@ export default function Registry() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-15deg)' }}
           />
         </motion.div>
@@ -35,7 +35,7 @@ export default function Registry() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(20deg)' }}
           />
         </motion.div>
@@ -51,7 +51,7 @@ export default function Registry() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(140deg)' }}
           />
         </motion.div>
@@ -67,8 +67,40 @@ export default function Registry() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-145deg)' }}
+          />
+        </motion.div>
+
+        {/* Additional Floral - Middle Left */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="absolute top-1/2 -left-6 md:-left-10 w-32 md:w-40 h-32 md:h-40 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-50"
+            style={{ transform: 'rotate(60deg)' }}
+          />
+        </motion.div>
+
+        {/* Additional Floral - Middle Right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1.3 }}
+          className="absolute top-1/2 -right-6 md:-right-10 w-32 md:w-40 h-32 md:h-40 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-50"
+            style={{ transform: 'rotate(-60deg)' }}
           />
         </motion.div>
 

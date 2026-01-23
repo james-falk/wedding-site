@@ -22,7 +22,7 @@ export default function WeddingParty() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-40"
+            className="object-contain opacity-85"
             style={{ transform: 'rotate(-10deg)' }}
           />
         </motion.div>
@@ -38,7 +38,7 @@ export default function WeddingParty() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-40"
+            className="object-contain opacity-85"
             style={{ transform: 'rotate(15deg)' }}
           />
         </motion.div>
@@ -54,7 +54,7 @@ export default function WeddingParty() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-78"
             style={{ transform: 'rotate(25deg)' }}
           />
         </motion.div>
@@ -70,7 +70,7 @@ export default function WeddingParty() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-78"
             style={{ transform: 'rotate(-30deg)' }}
           />
         </motion.div>
@@ -86,7 +86,7 @@ export default function WeddingParty() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-30"
+            className="object-contain opacity-75"
             style={{ transform: 'rotate(-40deg) scaleX(-1)' }}
           />
         </motion.div>
@@ -102,7 +102,7 @@ export default function WeddingParty() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-30"
+            className="object-contain opacity-75"
             style={{ transform: 'rotate(40deg)' }}
           />
         </motion.div>
@@ -118,7 +118,7 @@ export default function WeddingParty() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-32"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-25deg) scaleX(-1)' }}
           />
         </motion.div>
@@ -134,7 +134,7 @@ export default function WeddingParty() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-32"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(20deg)' }}
           />
         </motion.div>
@@ -150,7 +150,7 @@ export default function WeddingParty() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-38"
+            className="object-contain opacity-82"
             style={{ transform: 'rotate(160deg)' }}
           />
         </motion.div>
@@ -166,7 +166,7 @@ export default function WeddingParty() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-38"
+            className="object-contain opacity-82"
             style={{ transform: 'rotate(-160deg) scaleX(-1)' }}
           />
         </motion.div>
@@ -254,7 +254,7 @@ export default function WeddingParty() {
                         alt={person.name}
                         fill
                         className="object-cover hover:scale-110 transition-transform duration-500"
-                        style={person.name === "Lucas Falk" ? { objectPosition: "center 40%" } : {}}
+                        style={person.name === "Lucas Falk" ? { objectPosition: "center 40%" } : person.name === "Spencer Kovacs" ? { objectPosition: "center 0%" } : {}}
                       />
                     ) : (
                       <div className="absolute inset-0 bg-gradient-to-br from-sage-100 to-sage-200 flex items-center justify-center">

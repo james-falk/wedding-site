@@ -58,7 +58,7 @@ export default function GuestAmenities() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-10deg)' }}
           />
         </motion.div>
@@ -74,7 +74,7 @@ export default function GuestAmenities() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(15deg)' }}
           />
         </motion.div>
@@ -90,7 +90,7 @@ export default function GuestAmenities() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(145deg)' }}
           />
         </motion.div>
@@ -106,7 +106,7 @@ export default function GuestAmenities() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-145deg)' }}
           />
         </motion.div>

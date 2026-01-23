@@ -28,7 +28,7 @@ export default function FAQ() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(5deg)' }}
           />
         </motion.div>
@@ -44,7 +44,7 @@ export default function FAQ() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-8deg)' }}
           />
         </motion.div>
@@ -60,7 +60,7 @@ export default function FAQ() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(155deg)' }}
           />
         </motion.div>
@@ -76,7 +76,7 @@ export default function FAQ() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-35"
+            className="object-contain opacity-80"
             style={{ transform: 'rotate(-155deg)' }}
           />
         </motion.div>

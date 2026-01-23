@@ -54,19 +54,11 @@ export default function Navigation() {
             {/* Logo / Names */}
             <Link
               href="/"
-              className={`font-script text-2xl md:text-3xl transition-colors flex items-center gap-3 ${
+              className={`font-script text-2xl md:text-3xl transition-colors ${
                 showSolidNav ? "text-sage-700" : "text-white"
               }`}
             >
               {weddingData.couple.coupleNames}
-              <div className="relative w-48 h-48 md:w-56 md:h-56">
-                <Image
-                  src="/images/ring.png"
-                  alt="Wedding Rings"
-                  fill
-                  className="object-contain"
-                />
-              </div>
             </Link>
 
             {/* Desktop Navigation */}

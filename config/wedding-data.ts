@@ -169,21 +169,21 @@ export const weddingData = {
     officiator: {
       name: "Ryan",
       role: "Wedding Officiator",
-      relation: "Make a Wish Kid",
+      relation: "",
       photo: "/images/ryan.jpg",
     },
     bridesmaids: [
-      {
-        name: "Sara Cable",
-        role: "Maid of Honor",
-        relation: "",
-        photo: "/images/sara.jpg",
-      },
       {
         name: "Skyler Clendening",
         role: "Maid of Honor",
         relation: "",
         photo: "/images/skyler.jpg",
+      },
+      {
+        name: "Sara Cable",
+        role: "Bridesmaid",
+        relation: "",
+        photo: "/images/sara.jpg",
       },
       {
         name: "Ashlyn Ziebol",
@@ -233,7 +233,7 @@ export const weddingData = {
         name: "Bryce Falk",
         role: "Groomsman",
         relation: "",
-        photo: "",
+        photo: "/images/Bryce.png",
       },
       {
         name: "Lucas Falk",
@@ -251,7 +251,7 @@ export const weddingData = {
         name: "Spencer Kovacs",
         role: "Groomsman",
         relation: "",
-        photo: "",
+        photo: "/images/Spencer.jpg",
       },
       {
         name: "Maxwell Frederick",
