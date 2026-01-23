@@ -171,6 +171,54 @@ export default function WeddingParty() {
           />
         </motion.div>
 
+        {/* Extra Floral - Upper Center */}
+        <motion.div
+          initial={{ opacity: 0, y: -15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="absolute top-[15%] left-[15%] w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 4.png"
+            alt=""
+            fill
+            className="object-contain opacity-68"
+            style={{ transform: 'rotate(-25deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Middle Center Left */}
+        <motion.div
+          initial={{ opacity: 0, x: -10 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 1, delay: 1.05 }}
+          className="absolute top-[45%] left-[8%] w-26 md:w-32 h-26 md:h-32 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-65"
+            style={{ transform: 'rotate(55deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Lower Center */}
+        <motion.div
+          initial={{ opacity: 0, y: 15 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.25 }}
+          className="absolute bottom-[15%] right-[12%] w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-68"
+            style={{ transform: 'rotate(-55deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-5xl md:text-7xl text-center text-sage-700 mb-4">
             Wedding Party

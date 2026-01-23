@@ -213,6 +213,38 @@ export default function Travel() {
           />
         </motion.div>
 
+        {/* Extra Floral - Upper Middle */}
+        <motion.div
+          initial={{ opacity: 0, y: -10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.7 }}
+          className="absolute top-[15%] left-[10%] w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-65"
+            style={{ transform: 'rotate(25deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Lower Middle */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.3 }}
+          className="absolute bottom-[15%] right-[10%] w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-65"
+            style={{ transform: 'rotate(-35deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-5xl md:text-7xl text-center text-sage-700 mb-4">
             Travel & Stay

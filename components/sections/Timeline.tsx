@@ -85,7 +85,7 @@ export default function Timeline() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-70"
             style={{ transform: 'rotate(-35deg) scaleX(-1)' }}
           />
         </motion.div>
@@ -101,7 +101,7 @@ export default function Timeline() {
             src="/images/floral 4.png"
             alt=""
             fill
-            className="object-contain opacity-55"
+            className="object-contain opacity-70"
             style={{ transform: 'rotate(45deg)' }}
           />
         </motion.div>
@@ -117,7 +117,7 @@ export default function Timeline() {
             src="/images/Floral 1.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-70"
           />
         </motion.div>
 
@@ -132,7 +132,7 @@ export default function Timeline() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-58"
+            className="object-contain opacity-75"
             style={{ transform: 'rotate(180deg)' }}
           />
         </motion.div>

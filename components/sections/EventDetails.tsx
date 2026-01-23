@@ -109,6 +109,38 @@ export default function EventDetails() {
           />
         </motion.div>
 
+        {/* Extra Floral - Upper Center Left */}
+        <motion.div
+          initial={{ opacity: 0, rotate: -15 }}
+          animate={{ opacity: 1, rotate: 0 }}
+          transition={{ duration: 1, delay: 0.6 }}
+          className="absolute top-[20%] left-8 md:left-16 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 4.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(50deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Lower Center Right */}
+        <motion.div
+          initial={{ opacity: 0, rotate: 15 }}
+          animate={{ opacity: 1, rotate: 0 }}
+          transition={{ duration: 1, delay: 1.1 }}
+          className="absolute bottom-[25%] right-8 md:right-16 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(-55deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-4xl md:text-6xl text-center text-sage-700 mb-3">
             Event Details

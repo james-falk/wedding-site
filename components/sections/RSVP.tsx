@@ -151,6 +151,38 @@ export default function RSVP() {
           />
         </motion.div>
 
+        {/* Extra Floral - Middle Left */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.6 }}
+          className="absolute top-1/3 -left-6 md:left-2 w-32 md:w-44 h-32 md:h-44 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(45deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Middle Right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="absolute top-2/3 -right-6 md:right-2 w-32 md:w-44 h-32 md:h-44 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(-50deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-4xl sm:text-5xl md:text-7xl text-center text-sage-700 mb-3 sm:mb-4">
             RSVP

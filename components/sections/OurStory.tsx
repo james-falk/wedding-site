@@ -3,13 +3,110 @@
 import FadeIn from "../FadeIn";
 import weddingData from "@/config/wedding-data";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 export default function OurStory() {
   const { story } = weddingData;
 
   return (
-    <section className="py-20 md:py-32 px-4 bg-gradient-to-b from-white to-sky-50">
-      <div className="max-w-4xl mx-auto">
+    <section className="py-20 md:py-32 px-4 bg-gradient-to-b from-white to-sky-50 relative overflow-hidden">
+      <div className="max-w-4xl mx-auto relative">
+        {/* Floral 1 - Top Left */}
+        <motion.div
+          initial={{ opacity: 0, x: -30, y: -30 }}
+          animate={{ opacity: 1, x: 0, y: 0 }}
+          transition={{ duration: 1, delay: 0.3 }}
+          className="absolute -top-12 -left-8 md:-left-16 w-48 md:w-64 h-48 md:h-64 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 1.png"
+            alt=""
+            fill
+            className="object-contain opacity-80"
+            style={{ transform: 'rotate(-10deg)' }}
+          />
+        </motion.div>
+
+        {/* Floral 2 - Top Right */}
+        <motion.div
+          initial={{ opacity: 0, x: 30, y: -30 }}
+          animate={{ opacity: 1, x: 0, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="absolute -top-12 -right-8 md:-right-16 w-48 md:w-64 h-48 md:h-64 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-80"
+            style={{ transform: 'rotate(15deg)' }}
+          />
+        </motion.div>
+
+        {/* Floral 3 - Middle Left */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.8 }}
+          className="absolute top-1/3 -left-6 md:-left-12 w-40 md:w-52 h-40 md:h-52 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-75"
+            style={{ transform: 'rotate(25deg)' }}
+          />
+        </motion.div>
+
+        {/* Floral 4 - Middle Right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1 }}
+          className="absolute top-1/2 -right-6 md:-right-12 w-44 md:w-56 h-44 md:h-56 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 4.png"
+            alt=""
+            fill
+            className="object-contain opacity-75"
+            style={{ transform: 'rotate(-20deg)' }}
+          />
+        </motion.div>
+
+        {/* Additional Floral - Bottom Left */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.2 }}
+          className="absolute -bottom-8 -left-8 md:-left-16 w-40 md:w-52 h-40 md:h-52 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 1.png"
+            alt=""
+            fill
+            className="object-contain opacity-78"
+            style={{ transform: 'rotate(140deg)' }}
+          />
+        </motion.div>
+
+        {/* Additional Floral - Bottom Right */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.4 }}
+          className="absolute -bottom-8 -right-8 md:-right-16 w-40 md:w-52 h-40 md:h-52 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-78"
+            style={{ transform: 'rotate(-135deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-5xl md:text-7xl text-center text-sky-800 mb-16">
             {story.title}

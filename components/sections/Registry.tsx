@@ -83,7 +83,7 @@ export default function Registry() {
             src="/images/Floral 2.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-70"
             style={{ transform: 'rotate(60deg)' }}
           />
         </motion.div>
@@ -99,8 +99,40 @@ export default function Registry() {
             src="/images/floral 3.png"
             alt=""
             fill
-            className="object-contain opacity-50"
+            className="object-contain opacity-70"
             style={{ transform: 'rotate(-60deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Upper Center Left */}
+        <motion.div
+          initial={{ opacity: 0, y: -20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className="absolute top-1/4 left-4 md:left-12 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 4.png"
+            alt=""
+            fill
+            className="object-contain opacity-65"
+            style={{ transform: 'rotate(30deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Lower Center Right */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 1, delay: 1.1 }}
+          className="absolute bottom-1/4 right-4 md:right-12 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 1.png"
+            alt=""
+            fill
+            className="object-contain opacity-65"
+            style={{ transform: 'rotate(-40deg)' }}
           />
         </motion.div>
 

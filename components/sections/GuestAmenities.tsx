@@ -111,6 +111,38 @@ export default function GuestAmenities() {
           />
         </motion.div>
 
+        {/* Extra Floral - Middle Left */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.7 }}
+          className="absolute top-1/3 -left-4 md:left-2 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/Floral 2.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(35deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Middle Right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1.1 }}
+          className="absolute top-2/3 -right-4 md:right-2 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-70"
+            style={{ transform: 'rotate(-40deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-4xl md:text-6xl text-center text-sage-700 mb-3">
             For Our Guests

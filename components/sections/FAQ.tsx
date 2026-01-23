@@ -81,6 +81,38 @@ export default function FAQ() {
           />
         </motion.div>
 
+        {/* Extra Floral - Upper Middle Left */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 0.7 }}
+          className="absolute top-[20%] left-4 md:left-12 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 4.png"
+            alt=""
+            fill
+            className="object-contain opacity-68"
+            style={{ transform: 'rotate(40deg)' }}
+          />
+        </motion.div>
+
+        {/* Extra Floral - Lower Middle Right */}
+        <motion.div
+          initial={{ opacity: 0, scale: 0.8 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 1, delay: 1.1 }}
+          className="absolute bottom-[20%] right-4 md:right-12 w-28 md:w-36 h-28 md:h-36 pointer-events-none z-0"
+        >
+          <Image
+            src="/images/floral 3.png"
+            alt=""
+            fill
+            className="object-contain opacity-68"
+            style={{ transform: 'rotate(-45deg)' }}
+          />
+        </motion.div>
+
         <FadeIn>
           <h2 className="font-script text-5xl md:text-7xl text-center text-sage-700 mb-4">
             FAQ
