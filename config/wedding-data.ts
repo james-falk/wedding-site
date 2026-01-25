@@ -44,7 +44,7 @@ export const weddingData = {
       time: "4:00 PM",
       location: {
         venue: "Garden Estate Venue",
-        address: "1234 Wedding Lane",
+        address: "71 S Lake St",
         city: "Port Sanilac, MI 48469",
         googleMapsUrl: "https://maps.google.com/?q=43.4297,-82.5399",
       },
@@ -56,7 +56,7 @@ export const weddingData = {
       time: "5:00 PM",
       location: {
         venue: "Garden Estate Venue",
-        address: "1234 Wedding Lane",
+        address: "71 S Lake St",
         city: "Port Sanilac, MI 48469",
         googleMapsUrl: "https://maps.google.com/?q=43.4297,-82.5399",
       },
@@ -68,7 +68,7 @@ export const weddingData = {
       time: "6:30 PM",
       location: {
         venue: "Garden Estate Venue",
-        address: "1234 Wedding Lane",
+        address: "71 S Lake St",
         city: "Port Sanilac, MI 48469",
         googleMapsUrl: "https://maps.google.com/?q=43.4297,-82.5399",
       },
