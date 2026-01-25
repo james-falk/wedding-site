@@ -10,7 +10,7 @@ module.exports = {
       fontFamily: {
         heading: ['Playfair Display', 'serif'],
         body: ['Playfair Display', 'serif'],
-        script: ['Mrs Saint Delafield', 'cursive'],
+        script: ['Luxurious Script', 'cursive'],
       },
       colors: {
         cream: {
