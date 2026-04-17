@@ -181,7 +181,7 @@ export const weddingData = {
       },
       {
         name: "Sara Cable",
-        role: "Maid of Honor",
+        role: "Bridesmaid",
         relation: "",
         photo: "/images/sara.jpg",
       },
